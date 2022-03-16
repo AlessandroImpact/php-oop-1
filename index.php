@@ -1,8 +1,8 @@
 <?php
 	class Movie {
-		private $title;
-        private $language;
-        private $genre;
+		protected $title;
+        protected $language;
+        protected $genre;
 
         //COSTRUTTORE
         public function __construct($titolo, $genere, $lingua){
