@@ -1,5 +1,5 @@
 <?php
-	class Person {
+	class Movie {
 		private $title;
         private $language;
         private $genre;
@@ -58,13 +58,13 @@
 
 
 
-    $HungerGames = new movie("HungerGames","Avventure","Inglese");
+    $HungerGames = new Movie("HungerGames","Avventure","Inglese");
     echo "<b>Titolo :</b>" . " " . $HarryPotter->getTitle() . "<br>";
     echo "<b>Genere:</b>" . " " . $HarryPotter->getGenre() . "<br>";
     echo "<b>Lingue:</b>" . " " . $HarryPotter->getLanguage() . "<br>";
 
 
-    $AdamProject = new movie("The Adam Project","Azione","Inglese");
+    $AdamProject = new Movie("The Adam Project","Azione","Inglese");
     echo "<b>Titolo :</b>" . " " . $AdamProject->getTitle() . "<br>";
     echo "<b>Genere:</b>" . " " . $AdamProject->getGenre() . "<br>";
     echo "<b>Lingue:</b>" . " " . $AdamProject->getLanguage() . "<br>";
